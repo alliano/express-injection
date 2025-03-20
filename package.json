@@ -11,8 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@adameds/email-sender-ses": "^1.0.1",
     "dotenv": "^16.4.5",
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "nodemailer": "^6.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"

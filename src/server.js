@@ -3,7 +3,6 @@ import { env } from "process";
 import express from "express";
 import { log } from "console";
 import { routers } from "./routers/routes.js";
-import { } from "./routers/private-routes.js"
 import { errorMiddleware } from "./middlewares/error.middleware.js";
 
 const APP_PORT = env.APP_PORT;

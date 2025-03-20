@@ -1,8 +1,13 @@
 #### GET USER
+GET http://127.0.0.1:7000/api/v1/mobile/users HTTP/1.1
+X_API_KEY: d3751d33f9cd5049c4af2b462735457e4d3baf130bcbb87f389e349fbaeb20b9
+#### GET USER
 GET http://127.0.0.1:7000/api/v1/users HTTP/1.1
+Authorization: "Bearer 329u12d1280e7123t12twegw91278y"
 
 ### GET ID
 GET  http://127.0.0.1:7000/api/v1/users/1 HTTP/1.1
+Authorization: "Bearer 329u12d1280e7123t12twegw91278y"
 
 #### GET ADDRESS
 GET http://127.0.0.1:7000/api/v1/address HTTP/1.1
